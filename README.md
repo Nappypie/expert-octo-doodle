@@ -694,8 +694,8 @@ Inspired by [Sentinel Key System](https://github.com/AsuraXowner/Sentinel-Open-S
 
 ## Links
 
-- **Purchase**: [orqan.shop/product/ArqelUi](https://orqan.shop/product/ArqelUi/)
-- **Discord Support**: [Orqan.lol/discord](https://Orqan.lol/discord)
+- **Purchase**: [Orqan.shop](https://orqan.shop/product/ArqelUi/)
+- **Discord Support**: [Discord](https://Orqan.lol/discord)
 
 ## License
 
