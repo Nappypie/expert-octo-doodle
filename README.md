@@ -267,7 +267,7 @@ Arqel.Shop = {
 | `ButtonText` | string | `"Buy"` | Text on purchase button |
 | `Link` | string | `""` | URL copied when buy button clicked |
 
-**Note:** Shop section appears automatically if `Enabled = true` OR `Link` is not empty.
+**Note:** Shop section only appears when `Enabled = true`.
 
 ### Changelog
 
@@ -481,7 +481,7 @@ Arqel.Shop.Link = "https://shop.example.com"
 ### Minimal Shop Setup
 
 ```lua
--- Shop appears with just a link
+Arqel.Shop.Enabled = true
 Arqel.Shop.Link = "https://yourshop.com/buy"
 ```
 
@@ -495,4 +495,4 @@ Arqel.Shop.Link = "https://yourshop.com/buy"
 | Validation not working | Define `Callbacks.OnVerify` before `Launch()` |
 | UI not appearing | Check `getgenv().ArqelLoaded` isn't already `true` |
 | Junkie failing | Verify Service, Identifier, Provider values |
-| Shop not showing | Set `Shop.Enabled = true` or provide `Shop.Link` |
+| Shop not showing | Set `Shop.Enabled = true` |
